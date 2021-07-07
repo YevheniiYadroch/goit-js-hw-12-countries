@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/form.scss"],"names":[],"mappings":"AAAA,MACE,YAEA,YACE,iBAAA,CACA,WAAA,CACA,WAAA,CACA","file":"src.773be6fb.css","sourceRoot":"../src","sourcesContent":[".form {\n  margin: 50px;\n\n  input {\n    padding-left: 30px;\n    width: 500px;\n    height: 60px;\n    font-size: 25px;\n  }\n}\n"]}

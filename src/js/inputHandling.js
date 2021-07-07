@@ -1,4 +1,5 @@
 import fetchCountries from './fetchCountries';
+import * as _ from 'lodash';
 const input = document.querySelector('input');
 
 function inputHandler() {

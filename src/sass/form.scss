@@ -1,10 +1,32 @@
+body {
+  height: 100vh;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .form {
   margin: 50px;
 
   input {
     padding-left: 30px;
-    width: 500px;
+    width: 703px;
     height: 60px;
     font-size: 25px;
+  }
+
+  .country-item {
+    font-size: 20px;
+  }
+
+  .country {
+    display: flex;
+
+    .country-flag {
+      margin-left: 50px;
+      img {
+        max-width: 500px;
+      }
+    }
   }
 }

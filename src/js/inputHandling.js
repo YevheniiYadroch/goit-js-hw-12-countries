@@ -1,5 +1,7 @@
 import fetchCountries from './fetchCountries';
-import * as _ from 'lodash';
+// import {debounce as _debounce } from 'lodash/debounce';
+// import * as _debounce from 'lodash/debounce';
+import * as _ from 'lodash'; 
 const input = document.querySelector('input');
 
 function inputHandler() {

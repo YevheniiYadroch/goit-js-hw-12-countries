@@ -3,31 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Howework 12</title>
+    <title>Test Task</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link href="../node_modules/@pnotify/core/dist/PNotify.css" rel="stylesheet" type="text/css" />
-    <link href="../node_modules/@pnotify/mobile/dist/PNotifyMobile.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <include src="./partials/form.html"></include>
 
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script type="module">
-      import { alert, defaultModules } from 'node_modules/@pnotify/core/dist/PNotify.js';
-      import * as PNotifyMobile from 'node_modules/@pnotify/mobile/dist/PNotifyMobile.js';
-
-      defaultModules.set(PNotifyMobile, {});
-
-      alert({
-        text: 'Notice me, senpai!'
-      });
-    </script>
+    
     <script src="./index.js"></script>
   </body>
 </html>
